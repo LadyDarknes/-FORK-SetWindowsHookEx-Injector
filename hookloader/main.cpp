@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
 	// Finding target window
-	//HWND hwnd = FindWindow(NULL, L"Apex Legends"); //<------------------------------------ game window
-	HWND hwnd = FindWindow(NULL, L"UnrealTournament "); //<------------------------------------ game window
+	HWND hwnd = FindWindow(NULL, L"TestWindow");
+
 	if (hwnd == NULL) {
 		cout << "[ FAILED ] Could not find target window." << endl;
 		system("pause");
