@@ -1,0 +1,76 @@
+# Visual Studio / C++ Gitignore
+
+# Visual Studio geçici ve kullanıcıya özel ayar dosyaları
+.vs/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# Derleme çıktıları ve ara dizinler (Build / Intermediate Output)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+bld/
+
+# C/C++ derleyici ve bağlayıcı ara dosyaları
+*.obj
+*.iobj
+*.ilk
+*.pdb
+*.ipdb
+*.idb
+*.pch
+*.ipch
+*.aps
+*.res
+*.exp
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# Intellisense ve Veritabanı önbellekleri
+*.sdf
+*.opensdf
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+
+# Çalıştırılabilir derleme çıktıları
+*.exe
+*.dll
+*.lib
+
+# Test ve Profiler çıktıları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Editör ve IDE ayarları
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+
+# İşletim sistemi dosyaları
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
